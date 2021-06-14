@@ -1,0 +1,192 @@
+body {
+    color: rgb(201, 201, 201);
+    background-color: #36393F;
+    overflow: hidden;
+   }
+   
+a:active { 
+       color: #3246FF; text-decoration: none;
+}
+   
+a:visited{
+       color: greenyellow;
+    }
+   
+#leftBox {
+       color: darkblue;
+       float: left;
+       padding: 0px;
+       margin: 0;
+       border: 0;
+       background: #202225;
+       position:absolute;
+       left: 0;
+       top: 53px;
+       width: 40px;
+       height: 100%;
+       padding-top: 10px;
+       transition: width .2s;
+       overflow: hidden;
+}
+   
+.haus01 {
+       padding-left: 10px;
+       padding-right: 10px;
+   
+}
+   
+.haus01:hover {
+       transition: all 0.2s ease;
+       background-color:  #2a2c2f;
+}
+   
+   
+.linkeBox a {
+       text-decoration: none;
+}
+   
+   
+.button a {
+       text-decoration: none;
+       display: block;
+}
+   
+.obereBox {
+       background-color: #202225;
+       top: 0px;
+       left: 0px;
+       width: 100%;
+       height: 53px;
+       float: left;
+       position:absolute;
+}
+   
+.button {
+        font-size: 30px;
+       padding: 3px;
+       color: white;
+       border-radius: 1em;
+       width: 40px;
+       position:absolute;
+       margin-left: 20px;
+       text-align: center;
+}
+   
+.button:hover {
+       transition: all 0.2s ease;
+       background-color:  #34373C;
+}
+   
+.img123 {
+       left: 100px;
+       position: absolute;
+       align-items: center;
+}
+   
+.mainClass {
+       margin-top: 53px;
+       margin-left: 75px;
+       transition: margin-left .2s;
+       overflow-y: scroll;
+       word-wrap: break-word;
+       height:900px;
+   
+}
+   
+   /* Registrierung */
+   
+   .LoginBoxClass {
+       width: 500px;
+       height:550px;
+       background-color: #202225;
+       margin: auto;
+       margin-top: 30px;
+       border-radius: 10px;
+       padding: 10px;
+       padding-top: 30px;
+   }
+   
+   .LoginContent {
+       color: rgb(201, 201, 201);
+       text-align: center;
+       }
+       
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: #36393F;
+    border-radius: 5px;
+    color:rgb(233, 233, 233);
+    outline: none;
+    
+    }   
+a {
+   text-decoration: none;
+   font-family: sans-serif, arial, "lucida console";
+   font-size: 12px;
+   margin-left: 3px;
+   }
+
+a:link { 
+   color: #1A73E8;
+   }
+a:visited { 
+   color: #1A73E8;
+   }
+a:hover { 
+   color: #1B66C9;
+   }
+   
+.flex-container {
+    display:flex;
+    height:108px;
+    width: 480px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+   
+.flex-container2 {
+       margin-top: 80px;
+       display:flex;
+       height:90px;
+       width: 490px;
+       justify-content: flex-end;
+       align-items: flex-end;
+       font-size: 10px;
+}
+   
+input[type="submit"] {
+    background-color: #1A73E8;
+    width: 80px;
+    height: 40px;
+    font-family: sans-serif, arial, "lucida console";
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+   
+.FlexLoginButton {
+    display: flex;
+}
+   
+input[type="submit"]:hover {
+    background-color: #1B66C9;
+    cursor: pointer; 
+   }
+   
+.FlexRegisterButton {
+    display:flex;
+    align-items: flex-end;
+}
+   
+/* Login ENDE - Registrieren:*/
+   
+   
+       
+	
